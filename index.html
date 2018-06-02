@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mach1 Plugin Monitor</title>
+    <script src="https://rawgit.com/adzialocha/osc-js/master/lib/osc.js"></script>    
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="../../dist/aframe-oscsend-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene environment="preset: starry">
+      <a-camera  id="spinningBox" oscsend="
+      serverURL: localhost;
+      serverPort: 8080;
+      messagePath:;
+      " ></a-camera>
+    </a-scene>
+
+  </body>
+</html>
