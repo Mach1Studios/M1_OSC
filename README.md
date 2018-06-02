@@ -2,7 +2,7 @@
 
 ## Installation
 
-Follow the instructions below in *order*
+Follow the instructions below in **order**
 
     git clone https://github.com/ianpetrarca/M1_OSC.git
     cd M1_OSC
