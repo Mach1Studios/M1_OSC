@@ -2,9 +2,9 @@
 
 ## Installation
 
-OSC Debugger requires that you have Node and NPM installed on your local computer. To begin using it use the following commands:
+Follow the instructions below in *order*
 
-    git clone https://github.com/ianpetrarca/osc_debugger.git
-    cd osc_debugger
+    git clone https://github.com/ianpetrarca/M1_OSC.git
+    cd M1_OSC
     npm install 
     node .
