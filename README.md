@@ -36,7 +36,7 @@ This command will now send HMD data over OSC to the server specified in external
 
 ###  Notes
 
-The WebVR link should be opened in **Firefox**
+The WebVR link should be opened in **Firefox**. The OSC server must be running before the web-server is started. If you reload the page you will need to restart the OSC node.js server.
 
 Testing:
 6.3.18 - Demo compatible with MacOS and Windows
