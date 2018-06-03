@@ -34,6 +34,10 @@ This command will now send HMD data over OSC to the server specified in external
     const EXTERNAL_SERVER_ADDRESS_PORT = '9900';
 
 
-### Testing Notes
+###  Notes
 
+The WebVR link should be opened in **Firefox**
+
+Testing:
+6.3.18 - Demo compatible with MacOS and Windows
 
