@@ -29,14 +29,14 @@ Then in another terminal run:
 This command starts a Node.js server that listens to HMD rotation data on localhost:9900
 
 ### Run the demo with external OSC servers
-To start sending HMD data to an external server using OSC, use the following command:
+To start sending HMD data to an external OSC server, use the following command:
 
     npm run external-osc
 Then in another terminal run:
 
     npm run start
 
-This command will now send HMD data over OSC to the server specified in external_server.js. To change the server you send data to change lines 3 and 4 in **external_server.js**
+This command will now send HMD data over OSC to the server specified in external_server.js. To change the OSC server/port change the variables on lines 3 and 4 in **external_server.js**
 
     const EXTERNAL_SERVER_ADDRESS = '192.168.1.215';
     const EXTERNAL_SERVER_ADDRESS_PORT = '9900';
@@ -44,7 +44,7 @@ This command will now send HMD data over OSC to the server specified in external
 
 ###  Notes
 
-The WebVR link should be opened in **Firefox**. The OSC server must be running before the web-server is started. If you reload the page you will need to restart the OSC node.js server.
+The WebVR link should be opened in **Firefox**. The OSC server must be running before the web-server is started. If you reload the page you will need to restart the OSC server.
 
 Testing:
 6.3.18 - Demo compatible with MacOS and Windows
