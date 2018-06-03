@@ -21,7 +21,7 @@ To start locally sending OSC data use the following command:
 
     npm run local-osc
 
-This command starts a Node.js server that listens to HMD data on localhost:9900
+This command starts a Node.js server that listens to HMD rotation data on localhost:9900
 
 ### External Server
 To start sending HMD data to an external server using OSC, use the following command:
