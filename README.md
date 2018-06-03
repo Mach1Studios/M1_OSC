@@ -5,6 +5,12 @@
 
 ## Installation
 
+This project is derived from:
+- https://github.com/rm8x/aframe-oscsend-component by  https://github.com/rm8x/
+- https://github.com/MylesBorins/node-osc by  https://github.com/MylesBorins/
+- https://github.com/adzialocha/osc-js by  https://github.com/adzialocha/
+
+
 Follow the instructions below in **order**
 
     git clone https://github.com/ianpetrarca/M1_OSC.git
