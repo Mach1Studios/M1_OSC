@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mach1 Plugin Monitor</title>
+    <title>WebVR OSC Test</title>
     <script src="https://rawgit.com/adzialocha/osc-js/master/lib/osc.js"></script>    
     <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
     <script src="../../dist/aframe-oscsend-component.min.js"></script>
@@ -10,12 +10,14 @@
   </head>
   <body>
     <a-scene environment="preset: starry">
-      <a-camera  id="spinningBox" oscsend="
-      serverURL: localhost;
-      serverPort: 8080;
-      messagePath:;
-      " ></a-camera>
-    </a-scene>
 
+        <a-entity position="11.25 3 -10" scale="30 30 30" text="value: WebVR OSC;"></a-entity>
+
+      <a-camera id="spinningBox" oscsend="
+        serverURL: localhost;
+        serverPort: 8080;
+        messagePath:;">
+      </a-camera>
+    </a-scene>
   </body>
 </html>
