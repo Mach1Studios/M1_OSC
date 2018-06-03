@@ -6,8 +6,7 @@
 ## Installation
 
 This project is derived from:
-- [Aframe-Osc-Component](https://github.com/rm8x/aframe-oscsend-component)
-- https://github.com/rm8x/aframe-oscsend-component by  https://github.com/rm8x/
+- [aframe-oscsend-Component](https://github.com/rm8x/aframe-oscsend-component) by [rm8x](https://github.com/rm8x/)
 - https://github.com/MylesBorins/node-osc by  https://github.com/MylesBorins/
 - https://github.com/adzialocha/osc-js by  https://github.com/adzialocha/
 
