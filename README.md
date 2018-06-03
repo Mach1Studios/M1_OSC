@@ -16,17 +16,24 @@ Follow the instructions below to install webvr_osc:
     cd webvr_osc
     npm install
  
-### Local Server
+### Local OSC Server
 To start locally sending OSC data use the following command:
 
     npm run local-osc
+    
+Then in another terminal run:
 
+    npm run start
+    
+ 
 This command starts a Node.js server that listens to HMD rotation data on localhost:9900
 
-### External Server
+### External OSC Server
 To start sending HMD data to an external server using OSC, use the following command:
 
     npm run external-osc
+Then in another terminal run:
+    npm run start
 
 This command will now send HMD data over OSC to the server specified in external_server.js. To change the server you send data to change lines 3 and 4 in **external_server.js**
 
