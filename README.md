@@ -19,3 +19,6 @@ Open new terminal window at M1_OSC directory and enter:
 
 - The Node.js Server must be running before the HTTP server is started
 - The Node.js Server ends when you reload the page. If that happens restart the Node.js server then reload the localhost:7000 page. 
+
+Mac Notes:
+- Change the name of "debug-log" node_module to "debug" for this to work 
