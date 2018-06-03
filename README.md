@@ -7,9 +7,8 @@
 
 This project is derived from:
 - [aframe-oscsend-Component](https://github.com/rm8x/aframe-oscsend-component) by [rm8x](https://github.com/rm8x/)
-- https://github.com/MylesBorins/node-osc by  https://github.com/MylesBorins/
-- https://github.com/adzialocha/osc-js by  https://github.com/adzialocha/
-
+- [node-osc](https://github.com/MylesBorins/node-osc) by [rm8x](https://github.com/MylesBorins/)
+- [osc-jst](https://github.com/adzialocha/osc-js) by [adzialocha](https://github.com/adzialocha/)
 
 Follow the instructions below in **order**
 
