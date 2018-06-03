@@ -1,4 +1,4 @@
-# M1 OSC Test
+# WebVR OSC
 
 <img width="902" alt="screen shot 2017-03-20 at 11 03 49 pm" src="https://user-images.githubusercontent.com/1003196/40891737-20ce0106-6759-11e8-901d-82da4f565268.png">
 
