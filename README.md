@@ -1,21 +1,51 @@
-# M1 OSC Test
+# WebVR OSC Bridge
+
+<img width="400" alt="screen shot 2017-03-20 at 11 03 49 pm" src="https://user-images.githubusercontent.com/1003196/40891737-20ce0106-6759-11e8-901d-82da4f565268.png">
+
 
 ## Installation
 
-Follow the instructions below in **order**
+This project is derived from:
+- [aframe-oscsend-Component](https://github.com/rm8x/aframe-oscsend-component) by [rm8x](https://github.com/rm8x/)
+- [node-osc](https://github.com/MylesBorins/node-osc) by [rm8x](https://github.com/MylesBorins/)
+- [osc-jst](https://github.com/adzialocha/osc-js) by [adzialocha](https://github.com/adzialocha/)
 
-    git clone https://github.com/ianpetrarca/M1_OSC.git
-    cd M1_OSC
+Follow the instructions below to install webvr_osc:
+
+    git clone https://github.com/ianpetrarca/webvr_osc.git
+    cd webvr_osc
     npm install
-    
-    node server.js //Starts OSC Websocket->UDP Bridge
  
-Open new terminal window at M1_OSC directory and enter:
+### Run the demo locally
+To start locally sending OSC data use the following command:
+
+    npm run local-osc
     
-    npm run start //Creates HTTP server for WebVR content hosted at localhost:7000
+Then in another terminal run:
+
+    npm run start
+    
+ 
+This command starts a Node.js server that listens to HMD rotation data on localhost:9900
+
+### Run the demo with external OSC servers
+To start sending HMD data to an external OSC server, use the following command:
+
+    npm run external-osc
+Then in another terminal run:
+
+    npm run start
+
+This command will now send HMD data over OSC to the server specified in external_server.js. To change the OSC server/port change the variables on lines 3 and 4 in **external_server.js**
+
+    const EXTERNAL_SERVER_ADDRESS = '192.168.1.215';
+    const EXTERNAL_SERVER_ADDRESS_PORT = '9900';
 
 
-### Notes
+###  Notes
 
-- The Node.js Server must be running before the HTTP server is started
-- The Node.js Server ends when you reload the page. If that happens restart the Node.js server then reload the localhost:7000 page. 
+The WebVR link should be opened in **Firefox**. The OSC server must be running before the web-server is started. If you reload the page you will need to restart the OSC server.
+
+Testing:
+6.3.18 - Demo compatible with MacOS and Windows
+

@@ -4,10 +4,11 @@
   "description": "mach1 osc",
   "main": "index.js",
   "scripts": {
-    "dev": "budo index.js:dist/aframe-oscsend-component.min.js --port 7000 --live --open",
+    "start": "budo index.js:dist/aframe-oscsend-component.min.js --port 7000 --live --open",
     "dist": "webpack index.js dist/aframe-oscsend-component.js && webpack -p --config webpack.config.js index.js dist/aframe-oscsend-component.min.js ",
     "lint": "semistandard -v | snazzy",
-    "start": "npm run dev"
+    "local-osc": "node local_server.js",
+    "external-osc": "node external_server.js"
   },
   "author": "Ian Petrarca",
   "license": "MIT",
@@ -16,7 +17,8 @@
   },
   "homepage": "",
   "dependencies": {
-    "osc-js": "^1.0.5"
+    "osc-js": "^1.0.5",
+    "node-osc": "^2.0.4"
   },
   "devDependencies": {
     "aframe": "*",
